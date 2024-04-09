@@ -1,3 +1,5 @@
+import { PathLike } from "fs"; 
+
 export type Item = {
   key: string;
   en: string;
@@ -7,5 +9,5 @@ export type Item = {
   it: string;
 }
 
-export type FilePath = 'file_path' | string; 
+export type FilePath = 'file_path' | PathLike; 
 export type Language = 'it'| 'en' | 'de' | 'fr' | 'es' | 'all';
