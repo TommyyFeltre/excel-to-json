@@ -63,7 +63,7 @@ const translateFile = async (filePath: FilePath, language: Language) => {
 //available languages: 'en', 'de', 'es', 'fr', 'it'
 //language = 'all' will create a file for each available language
 //To run open terminal and write 'ts-node app.ts'
-const BE = './BE_Smart Living Configurator Translations 29_03_24.xlsx';
-const FE = './FE_Smart Living Configurator Translations 29_03_24.xlsx';
+const BE = 'file_path';
+const FE = 'file_path';
 const AVAILABLE_LANGUAGE = ['en', 'de', 'es', 'fr', 'it'];
 translateFile(FE, 'all');
