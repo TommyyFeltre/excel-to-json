@@ -7,5 +7,5 @@ export type Item = {
   it: string;
 }
 
-export type FilePath = './BE_Smart Living Configurator Translations 29_03_24.xlsx' | './FE_Smart Living Configurator Translations 29_03_24.xlsx'; 
+export type FilePath = 'file_path' | string; 
 export type Language = 'it'| 'en' | 'de' | 'fr' | 'es' | 'all';
