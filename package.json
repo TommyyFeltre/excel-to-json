@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/node": "^20.12.5",
+    "xlsx": "^0.18.5"
+  }
+}
